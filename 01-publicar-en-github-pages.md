@@ -1,193 +1,154 @@
 ---
 layout: default
-title: Publicar en GitHub Pages
-nav_order: 2
+title: Definición de Problemas
+nav_order: 7
 ---
 
-# Publicar sitio en GitHub Pages
+# Paso 1. La Semilla de la Indignación
 
-En este curso vamos a publicar tu documentación como un **sitio web** usando:
+## Problemática elegida
 
-- **GitHub** (para guardar el repositorio y el historial)
-- **GitHub Pages** (para convertir el repositorio en una URL pública)
-- **Codespaces** (para editar desde el navegador, sin instalar nada)
+**Monopolización de las industrias frente a los negocios emergentes.**
 
----
-
-## 1) Conceptos
-
-- **GitHub**: plataforma para alojar proyectos (repositorios) y colaborar.
-- **Repositorio (repo)**: carpeta de proyecto con archivos + historial.
-- **Commit**: “guardar un cambio” en el historial con un mensaje.
-- **Push**: enviar tus commits a GitHub (a la nube).
-- **GitHub Pages**: servicio que publica tu repo como sitio web.
-- **Pipeline (Actions)**: proceso automático que construye y publica el sitio cuando haces *push*.
-
-![Figura 1 — GitHub](assets/img/01-publicar/github.png)
-**Figura 1:** Página principal de GitHub.
+Elegimos esta problemática porque las grandes empresas tecnológicas concentran cada vez más recursos, usuarios y canales de publicidad, dificultando que los nuevos negocios puedan competir en igualdad de condiciones. Esta situación genera barreras de entrada para emprendedores, reduce la competencia y limita las oportunidades de innovación dentro de los mercados digitales.
 
 ---
 
-## 2) Crear tu proyecto en GitHub
+# Paso 2. Autopista del Problema
 
-Vas a partir del repo plantilla (este repositorio).
+## a) Evento
 
-[Github de este repositorio](https://github.com/HuberGiron/portafolio-just-the-docs)
+En 2025, un juez de Estados Unidos determinó que Google incurrió en prácticas anticompetitivas dentro del mercado de publicidad digital. Este caso evidenció cómo una empresa dominante puede influir considerablemente en un mercado del que dependen miles de pequeños negocios para promocionarse.
 
-### Ruta A (recomendada): Fork del repositorio
+**Fuente:** Reuters (2025). *Google viola ley antimonopolios con su publicidad en línea, resuelve juez en EU.*
 
-1. Abre el repositorio a copiar en GitHub.
-2. Clic en **Fork**.
-3. Configura:
-   - **Owner**: tu usuario (o la organización de tu equipo)
-   - **Repository name**: por ejemplo `documentacion-equipo-3`
-4. Clic en **Create fork**.
+## b) Patrón y Tendencia
 
-![Figura 2 — Fork](assets/img/01-publicar/fork.png)
-**Figura 2:** Botón *Fork* y pantalla de creación.
+![Gráfica de concentración del mercado publicitario digital](images/image1.png)
 
-> Ventaja: no necesitas “subir archivos” manualmente; ya tienes el proyecto completo en tu cuenta.
+### ¿Es recurrente?
 
-### Ruta B (alternativa): Crear un repo nuevo y subir los archivos
+Sí. La concentración del mercado de publicidad digital se ha mantenido durante varios años en manos de un pequeño grupo de empresas tecnológicas. La gráfica muestra cómo Google, Meta y Amazon concentran gran parte de los ingresos publicitarios digitales a nivel mundial.
 
-Úsala solo si se necesita “crear repo desde cero”.
+Fuente: [Reuters](https://www.reuters.com/business/media-telecom/meta-poised-surpass-google-digital-ad-revenue-first-time-report-says-2026-04-13/)
 
-1. Abre GitHub → **New repository**.
-2. Nombre: `documentacion-equipo-3`.
-3. Crea el repo.
-4. Descarga el repo en tu computadora:
-   - **Code → Download ZIP** (o descarga el `.zip` que te entregó el profesor).
-5. Sube el contenido a tu repo:
-   - **Add file → Upload files**
-   - Arrastra los archivos (descomprimidos) a la ventana
-   - Clic en **Commit changes**
+### ¿Está empeorando?
 
+Sí. Según las proyecciones de Emarketer, Meta superará a Google en ingresos publicitarios digitales a partir de 2026; sin embargo, ambas empresas, junto con Amazon, continúan incrementando sus ingresos año tras año. Esto indica que el mercado sigue concentrándose en unas cuantas plataformas dominantes, dificultando la competencia para nuevos negocios.
 
-![Figura 3 — Download ZIP + Upload files](assets/img/01-publicar/download.png)
-**Figura 3:** Descargar ZIP.
+**Fuente de la gráfica:** Emarketer, citada por Reuters.
 
-![Figura 4 — New repo](assets/img/01-publicar/nuevo.png)
-![Figura — New ](assets/img/01-publicar/new.png)
-![Figura  — exixting](assets/img/01-publicar/upload.png)
-![Figura  — upload](assets/img/01-publicar/files.png)
-**Figura 4:** Crear repositorio nuevo.
+## c) Mapeo de Actores y Redes
 
----
+![Mapa de actores](images/image2.jpg)
 
-## 3) Abrir el proyecto con Codespaces (sin instalar nada)
+### Relaciones principales entre actores
 
-1. En tu repo (tu fork o tu repo nuevo):
-   - Clic en **Code → Codespaces → Create codespace on main**
-2. Se abre un VS Code en el navegador.
+- Los anunciantes pagan a las plataformas tecnológicas por espacios publicitarios.
+- Los consumidores utilizan los servicios ofrecidos por las grandes plataformas.
+- Los negocios emergentes dependen de dichas plataformas para obtener visibilidad.
+- Los gobiernos regulan las actividades de las empresas tecnológicas.
 
-![Figura 5 — Codespaces](assets/img/01-publicar/codespace.png)
-**Figura 5:** Crear Codespace.
+### Estructura (Actores)
 
-> Nota: Codespaces puede tardar 1–3 minutos en iniciar la primera vez.
+- Grandes empresas tecnológicas.
+- Negocios emergentes y emprendedores.
+- Consumidores.
+- Anunciantes.
+- Gobiernos y organismos reguladores.
 
----
+## d) Paradigmas, Modelos Mentales y Comportamientos
 
-## 4) Configurar `_config.yml` para que funcione tu URL
+### Modelos Mentales
 
-En el explorador de archivos abre `_config.yml` y ajusta **solo**:
+#### Grandes empresas
 
-```yml
-url: "https://TU_USUARIO.github.io"
-baseurl: "/TU_REPO"
-```
+- Mantener el liderazgo del mercado genera mayores beneficios.
+- La expansión constante es necesaria para seguir creciendo.
 
-Ejemplo típico:
-- Usuario: `ana-ibero`
-- Repo: `documentacion-equipo-3`
+#### Negocios emergentes
 
-Entonces:
+- Es difícil competir contra empresas consolidadas.
+- Dependen de plataformas dominantes para obtener visibilidad.
 
-```yml
-url: "https://ana-ibero.github.io"
-baseurl: "/documentacion-equipo-3"
-```
+#### Consumidores
 
-![Figura 6 — Edit config](assets/img/01-publicar/config.png)
-**Figura 6:** Editando `_config.yml` en Codespaces.
+- Prefieren servicios conocidos y de fácil acceso.
+- Dan prioridad a la comodidad y popularidad de las plataformas.
 
-> Si `baseurl` no coincide con el nombre del repo, los links y estilos suelen “romperse”.
+#### Anunciantes
+
+- Prefieren invertir en las plataformas con mayor alcance.
+- Consideran menos riesgoso anunciarse en empresas ya consolidadas.
+
+#### Gobiernos y organismos reguladores
+
+- Buscan equilibrar la competencia económica con la innovación.
+- Suelen intervenir cuando el problema ya es significativo.
+
+### Paradigma que sostiene el problema
+
+El éxito empresarial se asocia con el crecimiento constante y la concentración de recursos, por lo que las empresas dominantes buscan ampliar continuamente su participación en el mercado para mantener su ventaja competitiva.
 
 ---
 
-## 5) Hacer tu primer cambio (commit) y subirlo (push)
+# Paso 3. Aterrizando el Problema
 
-En Codespaces:
+## 1. Perspectiva del Usuario y Límites
 
-1. Modifica un archivo sencillo, por ejemplo `index.md`.
-2. Ve a la pestaña **Source Control** (ícono de rama).
-3. En **Message**, escribe un mensaje de commit, por ejemplo:
-   - `Actualiza portada`
-4. Clic en **Commit**.
-5. Clic en **Sync Changes** (o **Push**).
+### Usuario Afectado
 
-![Figura 7 — Commit y Push](assets/img/01-publicar/commit.png)
-**Figura 7:** Source Control → Commit → Sync Changes.
+Emprendedores y propietarios de pequeños negocios que buscan crecer y competir en mercados digitales dominados por grandes empresas tecnológicas.
 
-### ¿Qué pasó en realidad?
+### Límites
 
-Cuando haces **push**:
-1. Tus archivos se guardan en GitHub.
-2. Se dispara un **pipeline (GitHub Actions)**.
-3. GitHub construye el sitio (Jekyll + Just the Docs).
-4. GitHub publica la versión nueva en **GitHub Pages**.
+#### Fuera de nuestro control
 
----
+- Regulaciones gubernamentales.
+- Decisiones de las grandes corporaciones.
+- Condiciones del mercado global.
 
-## 6) Activar GitHub Pages y obtener tu URL
+#### Limitaciones
 
-En tu repositorio (en GitHub, no en Codespaces):
+- Capital reducido.
+- Menor acceso a publicidad.
+- Escasos recursos tecnológicos.
 
-1. **Settings → Pages**
-2. En **Build and deployment**:
-   - Source: **Deploy from a branch**
-   - Branch: `main`
-   - Folder: `/ (root)`
-3. Guarda.
+## 2. Criterios de Éxito
 
-GitHub te mostrará tu URL con este formato:
+### Cuantitativos
 
-- `https://TU_USUARIO.github.io/TU_REPO/`
+- Aumentar en un 20% la tasa de supervivencia de los negocios emergentes.
+- Reducir en un 15% los costos de promoción y publicidad para pequeños negocios.
 
-![Figura  — Pages ](assets/img/01-publicar/pages.png)
-![Figura 8 — Pages settings](assets/img/01-publicar/website.png)
-**Figura 8:** Settings → Pages (branch y folder).
+### Cualitativos
+
+- Mayor igualdad de oportunidades.
+- Mercados más competitivos.
+- Más opciones para consumidores y emprendedores.
+
+## 3. Problem Statement
+
+Los negocios emergentes y emprendedores enfrentan dificultades para competir en el mercado de publicidad digital y comercio electrónico, donde unas cuantas empresas tecnológicas concentran usuarios, datos y canales de promoción. Esta situación se ha intensificado durante los últimos años, incrementando las barreras de entrada y los costos de visibilidad para nuevos participantes, quienes deben destinar una proporción creciente de sus recursos a publicidad para mantenerse competitivos. Como consecuencia, se reducen las oportunidades de crecimiento, la competencia y la innovación dentro del mercado digital.
 
 ---
 
-## 7) Verificar que el sitio ya está publicado
+# Paso 4. Evaluación de las "Soluciones" Actuales
 
-### Verificación rápida (lo mínimo)
+Demandas antimonopolio y regulaciones gubernamentales contra empresas tecnológicas dominantes como Google.
 
-1. En el repo, abre la pestaña **Actions**.
-2. Busca el workflow que dice algo como **pages build and deployment**.
-3. Espera a que salga en **verde (success)**.
-4. Regresa a **Settings → Pages** y abre la URL.
+## ¿Es deseable?
 
-![Figura 9 — Actions success](assets/img/01-publicar/actions.png)
-**Figura 9:** Actions con ejecución exitosa.
+Sí. Busca promover una competencia más justa y reducir las barreras para nuevos participantes del mercado.
 
+## ¿Es factible?
 
-### Señales típicas
+Parcialmente. Los gobiernos cuentan con herramientas legales para investigar y sancionar prácticas monopólicas, pero los procesos suelen ser largos y complejos.
 
-- Si **Actions** sigue corriendo: espera (es normal).
-- Si falla (rojo): abre el job y lee el error (a veces es un YAML mal indentado o un archivo faltante).
+## ¿Es viable?
 
----
+Parcialmente. Aunque las sanciones pueden limitar ciertas conductas anticompetitivas, las grandes empresas conservan ventajas significativas gracias a sus recursos, usuarios y acceso a datos.
 
-## Checklist 
+## Conclusión crítica
 
-- [ ] Hacer **commit** y **push** (desde Codespaces).
-- [ ] Ajustaste `url` y `baseurl` en `_config.yml`.
-- [ ] Activaste **Settings → Pages** con `main` y `/ (root)`.
-- [ ] En **Actions** la ejecución está en verde.
-- [ ] Tu URL abre y el menú lateral aparece.
-
----
-
-## Siguiente sección
-[Estructura del repositorio ](02-estructura-del-repo.md)
+Las regulaciones antimonopolio resultan deseables porque buscan promover una competencia más justa; sin embargo, presentan limitaciones de factibilidad debido a la complejidad y duración de los procesos legales, así como problemas de viabilidad, ya que las grandes empresas mantienen ventajas estructurales basadas en recursos, datos y millones de usuarios. Por ello, las soluciones actuales no han logrado reducir de forma significativa las barreras que enfrentan los negocios emergentes, permitiendo que continúe la concentración del mercado digital.

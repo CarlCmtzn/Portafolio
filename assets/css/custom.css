@@ -1,6 +1,6 @@
 /* === HEADER (barra superior) === */
-.site-header { background-color: #E00034 !important; }
-.site-title, .site-nav a { color: #ffffff !important; }
+.site-header { background-color: #ae0ae0 !important; }
+.site-title, .site-nav a { color: #474747 !important; }
 
 /* === ENLACES EN CONTENIDO (sin morado/azul y con subrayado del color) === */
 :root { --link-color: #E00034; }
@@ -156,7 +156,7 @@ a:focus { outline: 2px solid #FFD5DE; outline-offset: 2px; }
   /* Enlaces del footer en rojo Ibero */
   footer.site-footer a,
   footer.site-footer a:visited {
-    color: #E00034 !important;
+    color: #04e635 !important;
     text-decoration-color: rgba(224, 0, 52, 0.5) !important;
   }
   footer.site-footer a:hover {
