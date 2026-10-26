@@ -1,21 +1,12 @@
 # Plantilla Just the Docs
 
-Esta es una **plantilla de documentación** basada en **Just the Docs** (Jekyll) para que tus alumnos puedan:
-
-- copiar un repositorio (Fork),
-- editar contenido en **Markdown**,
-- trabajar **en línea con GitHub Codespaces** (sin instalar nada),
-- publicar su sitio en **GitHub Pages**,
-- y mantener una estructura y estilos consistentes (logo/colores/footer).
-
+Esta es una **Plantilla de Página o Registro Personal** y cualquiera puede usarla y modificarla para crear la suya propia.
 ---
 
 ## Requisitos
 
 - Cuenta de **GitHub** (gratuita).
 - Permiso para usar **GitHub Pages** y **Codespaces** (según tu cuenta/organización).
-
-> En este curso trabajamos **solo con GitHub Pages + Codespaces**. No es necesario instalar Ruby/Jekyll localmente.
 
 ---
 
@@ -113,13 +104,9 @@ Tip: si no ves cambios, fuerza recarga del navegador (hard refresh):
 
 ---
 
-## Contenido del mini-curso (dentro del sitio)
+## En "Guia de Edicion" estara el como puedes editar cada parte del codigo a tus necesidades
 
-- **Inicio**: `index.md`
-- **Tema 1 — Publicar en GitHub Pages**: `01-publicar-en-github-pages.md`
-- **Tema 2 — Estructura del repositorio**: `02-estructura-del-repo.md`
-- **Tema 3 — Escribir en Markdown**: `03-markdown.md`
-- **Tema 4 — Estilos y personalización visual**: `04-estilos.md`
+- **Guia**: `Guia de Edicion.md`
 
 ---
 

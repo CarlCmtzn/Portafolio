@@ -4,21 +4,16 @@ title: Inicio
 nav_order: 1
 ---
 
-# Plantilla de documentación con Just the Docs
+# Bienvenido!
 
-Este repositorio está diseñado para entender como utilizar la plantilla de repositorio que utiliza **"Just the docs"** de Jekyll y el lenguaje **"Markdown"**:
+Este repositorio esta hecho para la documentación visual de los trabajos realizados durante la carrera de Ingeniería en Inteligencia Artificial
 
-1. **Crear y publicar** el sitio en GitHub Pages.
-2. Aprender la **estructura** típica de un repo de documentación.
-3. Dominar **Markdown** (texto, listas, tablas, código).
-4. Configurar la **navegación** (sidebar, secciones, orden).
-5. Agregar **imágenes, videos** y otros recursos.
-6. Ajustar **estilos** (logo, colores, footer).
+## Podras ver:
 
+- [1. Ejercicios en clase y tareas.](01-publicar-en-github-pages.md)
+- [2. Proyectos de las diversas materias.](02-estructura-del-repo.md)
+- [3. Proyectos personales y ejercicios propios.](03-markdown.md)
+- [4. Pendiente](04-estilos.md)
 
-Contenido:
-- [1. Publicar en GitHub Pages](01-publicar-en-github-pages.md)
-- [2. Estructura del repositorio](02-estructura-del-repo.md)
-- [3. Escribir en Markdown](03-markdown.md)
-- [4. Personalización visual](04-estilos.md)
+Cada apartado tendra su link a GitHub en el que, si quieres, puedes descargar mis trabajos.
 

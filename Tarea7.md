@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Definición de Problemas
+title: Tarea 7: Definción de Problemas 
 nav_order: 7
 ---
 
