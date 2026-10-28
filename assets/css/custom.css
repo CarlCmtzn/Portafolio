@@ -40,7 +40,10 @@ a {
 }
 
 .main-header {
-  border-bottom: 1px solid #000000 !important;
+  border-bottom: 1px solid rgba(132,15,241,.4) !important;
+
+  box-shadow:
+    0 1px 8px rgba(132,15,241,.15);
 }
 
 /* Iconos y menú móvil */
@@ -134,8 +137,21 @@ a {
 
 /* Hover */
 .nav-list .nav-list-link:hover {
-  color: #CFA8FF !important;
-  background-color: rgba(255,255,255,.08) !important;
+  color: #ffffff !important;
+  background: rgba(132,15,241,.25) !important;
+  border-radius: 6px;
+  transition: .2s;
+}
+
+/* ==================================================
+   BORDE SIDEBAR
+================================================== */
+
+.side-bar {
+  border-right: 1px solid rgba(132,15,241,.4) !important;
+
+  box-shadow:
+    1px 0 8px rgba(132,15,241,.15);
 }
 
 /* ==================================================
@@ -165,7 +181,7 @@ a {
 
 .side-bar .nav-list .nav-list-link:hover {
   color: #CFA8FF !important;
-  background: rgba(255,255,255,.10) !important;
+  background: rgba(132,15,241,.25)
 }
 
 /* ==================================================
@@ -343,27 +359,24 @@ body,
    SEARCH
 ================================================== */
 
-.search-input {
-    color: #840FF1 !important;
-}
-
-.search-input::placeholder {
-    color: #840FF1 !important;
-    opacity: 1;
-}
-
-.search-label svg,
-.search-input-wrap svg {
-    stroke: #840FF1 !important;
-}
-
-.search-label svg,
-.search-input-wrap svg {
-    stroke: #840FF1 !important;
-}
-
 .search,
 .search-input-wrap,
 .search-results-wrap {
-    background: #1f1f1f !important;
+  background: #1b1b1b !important;
+  border-color: rgba(132,15,241,.3) !important;
+}
+
+.search-input {
+  background: transparent !important;
+  color: #840FF1 !important;
+}
+
+.search-input::placeholder {
+  color: #840FF1 !important;
+  opacity: 1;
+}
+
+.search-label svg,
+.search-input-wrap svg {
+  stroke: #840FF1 !important;
 }
