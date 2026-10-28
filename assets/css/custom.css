@@ -27,23 +27,19 @@ a {
 }
 
 /* ==================================================
-   HEADER
+   HEADER 
 ================================================== */
 
 .site-header {
   background: #0b0b0b !important;
+  border-bottom: 1px solid rgba(132,15,241,.4) !important;
+  box-shadow:
+    0 1px 8px rgba(132,15,241,.15);
 }
 
 .site-title,
 .site-nav a {
   color: #ffffff !important;
-}
-
-.main-header {
-  border-bottom: 1px solid rgba(132,15,241,.4) !important;
-
-  box-shadow:
-    0 1px 8px rgba(132,15,241,.15);
 }
 
 /* Iconos y menú móvil */
@@ -136,7 +132,7 @@ a {
 }
 
 /* Hover */
-.nav-list .nav-list-link:hover {
+.side-bar .nav-list .nav-list-link:hover {
   color: #ffffff !important;
   background: rgba(132,15,241,.25) !important;
   border-radius: 6px;
@@ -147,11 +143,11 @@ a {
    BORDE SIDEBAR
 ================================================== */
 
-.side-bar {
+side-bar {
   border-right: 1px solid rgba(132,15,241,.4) !important;
 
   box-shadow:
-    1px 0 8px rgba(132,15,241,.15);
+    2px 0 10px rgba(132,15,241,.20);
 }
 
 /* ==================================================
@@ -177,11 +173,6 @@ a {
   padding-left: 2.25rem;
   font-size: .9rem;
   background: rgba(255,255,255,.03);
-}
-
-.side-bar .nav-list .nav-list-link:hover {
-  color: #CFA8FF !important;
-  background: rgba(132,15,241,.25)
 }
 
 /* ==================================================
@@ -350,7 +341,6 @@ html,
 body,
 .main,
 .main-header,
-.main-content,
 .main-content-wrap {
     background: #242424 !important;
 }
@@ -364,6 +354,8 @@ body,
 .search-results-wrap {
   background: #1b1b1b !important;
   border-color: rgba(132,15,241,.3) !important;
+  box-shadow:
+    0 0 8px rgba(132,15,241,.15);
 }
 
 .search-input {
@@ -373,6 +365,7 @@ body,
 
 .search-input::placeholder {
   color: #840FF1 !important;
+
   opacity: 1;
 }
 
