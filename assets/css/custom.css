@@ -101,6 +101,7 @@ a {
   background: none !important;
 }
 
+/* Página activa */
 .nav-list .nav-list-link.active {
   color: #ffffff !important;
   font-weight: 500;
@@ -114,40 +115,7 @@ a {
   border-radius: 6px;
 }
 
-.nav-list .nav-list-link:hover {
-  color: #CFA8FF !important;
-  background-color: rgba(255,255,255,.08) !important;
-}
-
-/* ==================================================
-   SIDEBAR
-================================================== */
-
-.side-bar,
-.side-bar .site-nav,
-.side-bar .nav-list {
-  background: #141414 !important;
-}
-
-/* Links */
-
-.nav-list .nav-list-link,
-.nav-list .nav-list-link:visited {
-  color: #ffffff !important;
-}
-
-.nav-list .nav-list-link,
-.nav-list .nav-list-link.active,
-.nav-list .nav-list-link:hover {
-  background: none !important;
-}
-
-.nav-list .nav-list-link.active {
-  color: #CFA8FF !important;
-  font-weight: 500;
-  background-color: rgba(255,255,255,.12) !important;
-}
-
+/* Hover */
 .nav-list .nav-list-link:hover {
   color: #CFA8FF !important;
   background-color: rgba(255,255,255,.08) !important;
@@ -181,10 +149,6 @@ a {
 .side-bar .nav-list .nav-list-link:hover {
   color: #CFA8FF !important;
   background: rgba(255,255,255,.10) !important;
-}
-
-.side-bar .nav-list .nav-list-link.active {
-  background: rgba(255,255,255,.20) !important;
 }
 
 /* ==================================================
@@ -343,4 +307,17 @@ video {
 
 .custom-footer__modified strong {
     color: #ffffff !important;
+}
+
+/* ==================================================
+   FONDO GLOBAL
+================================================== */
+
+html,
+body,
+.main,
+.main-header,
+.main-content,
+.main-content-wrap {
+    background: #242424 !important;
 }
