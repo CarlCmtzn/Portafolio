@@ -349,27 +349,27 @@ body,
    SEARCH
 ================================================== */
 
-.search,
-.search-input-wrap,
-.search-results-wrap {
-  background: #1b1b1b !important;
-  border-color: rgba(132,15,241,.3) !important;
-  box-shadow:
-    0 0 8px rgba(132,15,241,.15);
-}
-
 .search-input {
-  background: transparent !important;
   color: #840FF1 !important;
 }
 
 .search-input::placeholder {
   color: #840FF1 !important;
-
   opacity: 1;
 }
 
 .search-label svg,
 .search-input-wrap svg {
   stroke: #840FF1 !important;
+}
+
+/* ==================================================
+   BORDE DEL TITULO
+================================================== */
+
+.site-title {
+    border-bottom: 1px solid rgba(132,15,241,.4) !important;
+
+    box-shadow:
+        0 2px 8px rgba(132,15,241,.15);
 }
