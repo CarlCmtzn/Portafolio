@@ -1,5 +1,5 @@
 /* === HEADER (barra superior) === */
-.site-header {background-color: #111111 !important;}
+.site-header {background-color: #0f0f0f !important;}
 .site-title, .site-nav a {color : #ffffff !important;}
 
 /* === ENLACES EN CONTENIDO === */
@@ -11,7 +11,7 @@ a {text-decoration-color: rgba(132,15,241,.4);}
 .side-bar,
 .side-bar .site-nav,
 .side-bar .nav-list {
-    background-color: #222222 !important;
+    background-color: #171717 !important;
 }
 
 /* Links del sidebar (texto blanco; sin degradados) */
@@ -80,7 +80,7 @@ a {text-decoration-color: rgba(132,15,241,.4);}
 .breadcrumbs li a:hover { color: #9B39F5; }
 
 /* === CONTENIDO === */
-.page-content { background-color: #ffffff; color: #333333; }
+.page-content { background-color: #ececec; color: #333333; }
 
 /* ===== 1) Header: iconos/botón del menú en blanco (forzado) ===== */
 .site-header svg,
@@ -349,7 +349,7 @@ video {
     margin-left: 14rem;
   }
   .main-content {
-    max-width: none !important;
+    max-width: 900px !important;
     width: 100% !important;
   }
   .main-content-wrap {
