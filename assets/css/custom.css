@@ -293,27 +293,27 @@ video {
 
   .main {
     margin-left: 14rem;
-    background: #2c2c2c !important;
+    background: #242424 !important;
   }
 
   .main-content-wrap {
     max-width: none !important;
-    background: #323232 !important;
+    background: #262626  !important;
   }
 
   .main-content {
     max-width: 1300px !important;
     width: 100% !important;
 
-    background: #3a3a3a !important;
-    color: #f0f0f0 !important;
+    background: #2a2a2a  !important;
+    color: #e5e5e5  !important;
 
     border-radius: 12px;
     padding: 2rem;
 
     box-shadow:
-      0 0 20px rgba(132,15,241,.12),
-      0 0 40px rgba(132,15,241,.06);
+      0 0 20px rgba(132,15,241,.10),
+      0 0 40px rgba(132,15,241,.05);
   }
 }
 
@@ -321,27 +321,26 @@ video {
    TEXTO MODO OSCURO
 ================================================== */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #ffffff !important;
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+    color: #ffffff !important;
 }
 
-p,
-li,
-td,
-th,
-span {
-  color: #e0e0e0 !important;
+.main-content p,
+.main-content li,
+.main-content td,
+.main-content th {
+    color: #e5e5e5 !important;
 }
 
 .custom-footer {
-  color: #bdbdbd !important;
+    color: #cfcfcf !important;
 }
 
 .custom-footer__modified strong {
-  color: #ffffff !important;
+    color: #ffffff !important;
 }
