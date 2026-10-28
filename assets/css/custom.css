@@ -293,28 +293,28 @@ video {
 
   .main {
     margin-left: 14rem;
-    background: #202020 !important;
+    background: #2c2c2c !important;
   }
 
   .main-content-wrap {
     max-width: none !important;
-    background: #e9e9e9 !important;
-}
+    background: #323232 !important;
+  }
 
   .main-content {
     max-width: 1300px !important;
     width: 100% !important;
 
-    background: #f5f5f5 !important;
-    color: #2f2f2f !important;
+    background: #3a3a3a !important;
+    color: #f0f0f0 !important;
 
     border-radius: 12px;
     padding: 2rem;
 
     box-shadow:
-      0 0 20px rgba(132,15,241,.10),
-      0 0 40px rgba(132,15,241,.05);
-}
+      0 0 20px rgba(132,15,241,.12),
+      0 0 40px rgba(132,15,241,.06);
+  }
 }
 
 /* ==================================================
@@ -335,7 +335,7 @@ li,
 td,
 th,
 span {
-  color: #d6d6d6 !important;
+  color: #e0e0e0 !important;
 }
 
 .custom-footer {
