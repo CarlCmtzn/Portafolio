@@ -32,8 +32,9 @@ a {
 
 .site-header {
   background: #0b0b0b !important;
-  border-bottom: none !important;
-  box-shadow: none !important;
+  border-bottom: 1px solid rgba(132,15,241,.4) !important;
+  box-shadow:
+    0 1px 8px rgba(132,15,241,.15);
 }
 
 /* Barra superior principal */
@@ -403,4 +404,35 @@ body,
 
     box-shadow:
         0 2px 8px rgba(132,15,241,.15);
+}
+
+/* ==================================================
+   REPOSITORIO GITHUB
+================================================== */
+
+.aux-nav-list-item a {
+  transition: .2s;
+}
+
+.aux-nav-list-item a:hover {
+  background: rgba(132,15,241,.25) !important;
+  box-shadow:
+    0 0 8px rgba(132,15,241,.15);
+  border-radius: 6px;
+  color: #ffffff !important;
+}
+
+/* ==================================================
+   TITULO DEL SITIO
+================================================== */
+
+.site-title {
+  transition: .2s;
+}
+
+.site-title:hover {
+  background: rgba(132,15,241,.15) !important;
+  box-shadow:
+    0 0 10px rgba(132,15,241,.2);
+  border-radius: 6px;
 }
