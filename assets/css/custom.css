@@ -355,7 +355,10 @@ video {
   .main-content-wrap {
     max-width: none !important;
   }
-}
-body {
-    background: red !important;
+  .main {
+    max-width: none !important;
+  }
+  .main {
+    background: #ececec !important;
+  }
 }
