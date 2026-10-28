@@ -4,6 +4,8 @@ title: Tarea 7: Definción de Problemas
 nav_order: 7
 ---
 
+# Tarea 7: Definción de Problemas 
+
 # Paso 1. La Semilla de la Indignación
 
 ## Problemática elegida
