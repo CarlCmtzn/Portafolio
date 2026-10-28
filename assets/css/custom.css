@@ -37,6 +37,23 @@ a {
     0 1px 8px rgba(132,15,241,.15);
 }
 
+/* Barra superior principal */
+.main-header {
+  border-bottom: 1px solid rgba(132,15,241,.35) !important;
+
+  box-shadow:
+    0 1px 8px rgba(132,15,241,.12);
+}
+
+/* Botón superior */
+.aux-nav-list-item a {
+  color: #840FF1 !important;
+
+  font-size: 1rem !important;
+
+  font-weight: 500 !important;
+}
+
 .site-title,
 .site-nav a {
   color: #ffffff !important;
@@ -370,6 +387,12 @@ body,
 .search-label svg,
 .search-input-wrap svg {
   stroke: #840FF1 !important;
+}
+
+.search-input,
+.search-input::placeholder {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
 }
 
 /* ==================================================
