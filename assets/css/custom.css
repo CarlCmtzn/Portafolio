@@ -282,15 +282,54 @@ video {
 
   .main {
     margin-left: 14rem;
+    background: #202020 !important;
+  }
+
+  .main-content-wrap {
+    max-width: none !important;
+    background: #242424 !important;
   }
 
   .main-content {
     max-width: 1300px !important;
     width: 100% !important;
-  }
 
-  .main-content-wrap {
-    max-width: none !important;
+    background: #2a2a2a !important;
+    color: #e5e5e5 !important;
+
+    border-radius: 12px;
+    padding: 2rem;
+
+    box-shadow:
+      0 0 15px rgba(132,15,241,.08);
   }
 }
 
+/* ==================================================
+   TEXTO MODO OSCURO
+================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff !important;
+}
+
+p,
+li,
+td,
+th,
+span {
+  color: #d6d6d6 !important;
+}
+
+.custom-footer {
+  color: #bdbdbd !important;
+}
+
+.custom-footer__modified strong {
+  color: #ffffff !important;
+}
