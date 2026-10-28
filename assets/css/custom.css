@@ -12,8 +12,10 @@ a:visited {
 }
 
 a {
-  text-decoration-color: rgba(132,15,241,.4);
+  text-decoration-color: #6500B3 !important;
+  text-underline-offset: 2px;
 }
+
 
 .breadcrumbs li a,
 .breadcrumbs li a:visited {
@@ -35,6 +37,10 @@ a {
 .site-title,
 .site-nav a {
   color: #ffffff !important;
+}
+
+.main-header {
+  border-bottom: 1px solid #000000 !important;
 }
 
 /* Iconos y menú móvil */
@@ -86,6 +92,17 @@ a {
 .side-bar .site-nav,
 .side-bar .nav-list {
   background: #141414 !important;
+}
+
+/* Footer lateral */
+
+.side-bar .site-footer {
+    color: #8c8c8c !important;
+}
+
+.side-bar .site-footer a {
+    color: #840FF1 !important;
+    text-decoration-color: #6500B3 !important;
 }
 
 /* Links */
@@ -320,4 +337,33 @@ body,
 .main-content,
 .main-content-wrap {
     background: #242424 !important;
+}
+
+/* ==================================================
+   SEARCH
+================================================== */
+
+.search-input {
+    color: #840FF1 !important;
+}
+
+.search-input::placeholder {
+    color: #840FF1 !important;
+    opacity: 1;
+}
+
+.search-label svg,
+.search-input-wrap svg {
+    stroke: #840FF1 !important;
+}
+
+.search-label svg,
+.search-input-wrap svg {
+    stroke: #840FF1 !important;
+}
+
+.search,
+.search-input-wrap,
+.search-results-wrap {
+    background: #1f1f1f !important;
 }
