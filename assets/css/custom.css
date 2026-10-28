@@ -330,3 +330,29 @@ video {
   height: 100%;
   border: 0;
 }
+
+.main-content-wrap {
+    min-height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-footer {
+    margin-top: auto;
+}
+
+@media (min-width: 66rem) {
+  .side-bar {
+    width: 14rem;
+  }
+  .main {
+    margin-left: 14rem;
+  }
+  .main-content {
+    max-width: none !important;
+    width: 100% !important;
+  }
+  .main-content-wrap {
+    max-width: none !important;
+  }
+}
