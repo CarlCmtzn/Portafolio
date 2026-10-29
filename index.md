@@ -4,16 +4,42 @@ title: Inicio
 nav_order: 1
 ---
 
-# Bienvenido!
+# ¡Bienvenido!
 
-Este repositorio esta hecho para la documentación visual de los trabajos realizados durante la carrera de Ingeniería en Inteligencia Artificial
+Este repositorio está dedicado a la documentación visual de los trabajos realizados durante la carrera de Ingeniería en Inteligencia Artificial.
 
-## Podras ver:
+## Contenido del Portafolio
 
-- [1. Ejercicios en clase y tareas.](01-publicar-en-github-pages.md)
-- [2. Proyectos de las diversas materias.](02-estructura-del-repo.md)
-- [3. Proyectos personales y ejercicios propios.](03-markdown.md)
-- [4. Pendiente](04-estilos.md)
+- 📚 Contenido referente a las materias
+  - Ejercicios y tareas
+  - Proyectos académicos
 
-Cada apartado tendra su link a GitHub en el que, si quieres, puedes descargar mis trabajos.
+- 💻 Proyectos personales
+  - Aplicaciones
+  - Algoritmos
+  - Experimentos y pruebas
+
+## ¿Cómo está organizado?
+
+La documentación se encuentra organizada por materias. Dentro de cada materia encontrarás ejercicios, tareas y proyectos desarrollados durante el semestre.
+
+### Ejemplo de estructura
+
+```text
+📚 Materias
+│
+├─ Pensamiento de Ingeniería
+│  └─ Tareas
+│     ├─ Tarea 1
+│     └─ Tarea 2
+│
+├─ Programación
+│  ├─ Ejercicios y Tareas
+│  └─ Proyectos
+│
+└─ Lógica (Python)
+   ├─ Ejercicios y Tareas
+   └─ Proyectos
+
+Cada apartado tendrá su link a GitHub en el que, si quieres, puedes descargar mis trabajos.
 
