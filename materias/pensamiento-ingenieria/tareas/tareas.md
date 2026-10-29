@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Pensamiento de Ingeniería
-nav_order: 1
+title: Tareas
+parent: Pensamiento de Ingeniería
+nav_order: 2
 has_children: true
 has_toc: false
 ---

@@ -30,13 +30,6 @@ a {
    HEADER 
 ================================================== */
 
-.site-header {
-  background: #0b0b0b !important;
-  border-bottom: 1px solid rgba(132,15,241,.4) !important;
-  box-shadow:
-    0 1px 8px rgba(132,15,241,.15);
-}
-
 /* Barra superior principal */
 .main-header {
   border-bottom: 1px solid rgba(132,15,241,.35) !important;
@@ -196,17 +189,24 @@ a {
    FLECHAS DEL MENÚ
 ================================================== */
 
+.nav-list-expander {
+  background: transparent !important;
+  border-left: none !important;
+}
+
 .nav-list-expander,
 .nav-list-expander svg {
-  color: #ffffff !important;
-  stroke: #ffffff !important;
+  color: #CFA8FF !important;
+  stroke: #CFA8FF !important;
   fill: none !important;
 }
 
-.nav-list-expander:hover,
+.nav-list-expander:hover {
+  background: rgba(132,15,241,.25) !important;
+}
+
 .nav-list-expander:hover svg {
-  color: #CFA8FF !important;
-  stroke: #CFA8FF !important;
+  stroke: #ffffff !important;
 }
 
 /* ==================================================
@@ -437,12 +437,60 @@ body,
   border-radius: 6px;
 }
 
-
-
+/* ==================================================
+   FORMATO OSUCORO DE CÓDIGO
+================================================== */
 
 pre,
 code,
 .highlight {
     background: #2a2a2a !important;
     color: #e5e5e5 !important;
+}
+
+/* ==================================================
+   SEARCH RESULTS
+================================================== */
+
+.search-results {
+    background: #242424 !important;
+}
+
+.search-result {
+    background: #242424 !important;
+    border-bottom: 1px solid rgba(132,15,241,.15) !important;
+}
+
+.search-result:hover {
+    background: rgba(132,15,241,.15) !important;
+}
+
+.search-result-title {
+    color: #CFA8FF !important;
+}
+
+.search-result-doc,
+.search-result-rel-url {
+    color: #cfcfcf !important;
+}
+
+.search-result-previews {
+    color: #e5e5e5 !important;
+}
+
+.search-results-wrap {
+    background: #242424 !important;
+}
+
+.search-results-list {
+    background: #242424 !important;
+}
+
+.search-result.active,
+.search-result:hover {
+
+    box-shadow:
+        inset 3px 0 0 rgba(132,15,241,.8);
+
+    background: rgba(132,15,241,.15) !important;
 }
