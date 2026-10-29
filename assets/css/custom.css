@@ -467,57 +467,39 @@ code,
 }
 
 /* ==================================================
-PYGMENTS / RESALTADO DE CÓDIGO
+   PYGMENTS / RESALTADO DE CÓDIGO
 ================================================== */
- 
-.highlight {
-background: #2a2a2a !important;
-}
- 
-.highlight pre {
-background: #2a2a2a !important;
-color: #e5e5e5 !important;
-}
- 
-/* Comentarios */
-.highlight .c,
-.highlight .c1 {
-color: #8f9bb3 !important;
-}
- 
-/* Keywords */
-.highlight .k,
-.highlight .kd {
-color: #ff79c6 !important;
-}
- 
-/* Strings */
-.highlight .s,
-.highlight .s1,
-.highlight .s2 {
-color: #f1fa8c !important;
-}
- 
-/* Números */
-.highlight .mi,
-.highlight .mf {
-color: #ffb86c !important;
-}
- 
-/* Funciones */
-.highlight .nf {
-color: #50fa7b !important;
-}
- 
-/* Variables */
-.highlight .n {
-color: #e5e5e5 !important;
+
+.highlight,
+.highlight pre,
+div.highlighter-rouge {
+    background: #2a2a2a !important;
+    color: #e5e5e5 !important;
 }
 
-/* Keywords */
+/* Comentarios */
+.highlight .c,
+.highlight .c1,
+.highlight .cm {
+    color: #9aa0aa !important;
+}
+
+/* Keywords (import, for, if, etc.) */
 .highlight .k,
-.highlight .kd {
+.highlight .kd,
+.highlight .kn {
     color: #CFA8FF !important;
+    font-weight: 600;
+}
+
+/* Módulos (numpy, matplotlib, etc.) */
+.highlight .nn {
+    color: #66d9ef !important;
+}
+
+/* Variables */
+.highlight .n {
+    color: #e5e5e5 !important;
 }
 
 /* Funciones */
@@ -525,8 +507,15 @@ color: #e5e5e5 !important;
     color: #840FF1 !important;
 }
 
-/* Comentarios */
-.highlight .c,
-.highlight .c1 {
-    color: #9aa0aa !important;
+/* Strings */
+.highlight .s,
+.highlight .s1,
+.highlight .s2 {
+    color: #f1fa8c !important;
+}
+
+/* Números */
+.highlight .mi,
+.highlight .mf {
+    color: #ffb86c !important;
 }
