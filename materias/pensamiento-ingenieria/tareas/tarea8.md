@@ -63,3 +63,6 @@ print(f"Percentil 10 (Escenario Pesimista): ${p10:,.2f}")
 print(f"Percentil 50 (Mediana): ${p50:,.2f}")
 print(f"Percentil 90 (Escenario Optimista): ${p90:,.2f}")
 ```
+# Ejemplo Ejecutado
+
+![Gráfica de concentración]({{ '/assets/img/Tarea8/simulacion.png' | relative_url }})
