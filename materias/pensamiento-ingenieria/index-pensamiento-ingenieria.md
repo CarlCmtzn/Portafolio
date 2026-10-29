@@ -13,3 +13,7 @@ Página principal de la materia.
 ## Apartados
 
 - [Tareas](tareas/tareas.md)
+
+---
+
+[← Regresar al Inicio](../../../index.md)
