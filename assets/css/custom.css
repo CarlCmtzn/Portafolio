@@ -33,7 +33,6 @@ a {
 /* Barra superior principal */
 .main-header {
   border-bottom: 1px solid rgba(132,15,241,.35) !important;
-
   box-shadow:
     0 1px 8px rgba(132,15,241,.12);
 }
@@ -41,9 +40,7 @@ a {
 /* Botón superior */
 .aux-nav-list-item a {
   color: #840FF1 !important;
-
   font-size: 1rem !important;
-
   font-weight: 500 !important;
 }
 
@@ -121,14 +118,6 @@ a {
   color: #ffffff !important;
 }
 
-
-/*.nav-list .nav-list-link,
-.nav-list .nav-list-link.active,
-.nav-list .nav-list-link:hover {
-  background: none !important;
-}
-*/
-
 .nav-list .nav-list-link {
   background: none !important;
 }
@@ -196,7 +185,28 @@ a {
 ================================================== */
 
 .nav-list-expander {
-  display: none !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.nav-list-expander:hover {
+  background: transparent !important;
+}
+
+.nav-list-expander,
+.nav-list-expander svg {
+  color: inherit !important;
+  stroke: currentColor !important;
+  fill: none !important;
+}
+
+.nav-list-item {
+  position: relative;
+}
+
+.nav-list-expander {
+  background: transparent !important;
 }
 
 /* ==================================================
@@ -411,21 +421,6 @@ body,
   border-radius: 6px;
   color: #ffffff !important;
 }
-
-/* ==================================================
-   TITULO DEL SITIO
-================================================== 
-
-.site-title {
-  transition: .2s;
-}
-
-.site-title:hover {
-  background: rgba(132,15,241,.15) !important;
-  box-shadow:
-    0 0 10px rgba(132,15,241,.2);
-  border-radius: 6px;
-} */
 
 /* ==================================================
    FORMATO OSUCORO DE CÓDIGO
