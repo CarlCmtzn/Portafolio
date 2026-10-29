@@ -519,3 +519,13 @@ div.highlighter-rouge {
 .highlight .mf {
     color: #ffb86c !important;
 }
+
+/* Símbolos y puntuación */
+.highlight .p {
+    color: #f8f8f2 !important;
+}
+
+/* Operadores */
+.highlight .o {
+    color: #ff79c6 !important;
+}
