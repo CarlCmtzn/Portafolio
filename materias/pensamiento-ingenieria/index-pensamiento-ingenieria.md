@@ -16,4 +16,4 @@ Página principal de la materia.
 
 ---
 
-[← Regresar al Inicio](../../../index.md)
+[← Regresar al Inicio]({{ '/' | relative_url }})
