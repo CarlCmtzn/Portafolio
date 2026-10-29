@@ -11,6 +11,6 @@ Aquí se mostrarán las tareas realizadas durante la materia.
 
 ## Disponible
 
-- [Tarea 1](tarea1.md)
+- [Tarea 7](tarea7.md)
 
-[← Regresar a Pensamiento de Ingeniería](index.md)
+[← Regresar a Pensamiento de Ingeniería](index-pensamiento-ingenieria.md)

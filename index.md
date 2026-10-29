@@ -40,6 +40,7 @@ La documentación se encuentra organizada por materias. Dentro de cada materia e
 └─ Lógica (Python)
    ├─ Ejercicios y Tareas
    └─ Proyectos
+```
 
 Cada apartado tendrá su link a GitHub en el que, si quieres, puedes descargar mis trabajos.
 
