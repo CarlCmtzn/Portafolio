@@ -29,7 +29,7 @@ En 2025, un juez de Estados Unidos determinó que Google incurrió en prácticas
 
 ## b) Patrón y Tendencia
 
-![Gráfica de concentración](/assets/img/Tarea7/grafica.png)
+![Gráfica de concentración]({{ '/assets/img/Tarea7/grafica.png' | relative_url }})
 
 ### ¿Es recurrente?
 
@@ -45,7 +45,7 @@ Sí. Según las proyecciones de Emarketer, Meta superará a Google en ingresos p
 
 ## c) Mapeo de Actores y Redes
 
-![Mapa de actores y relaciones](/assets/img/Tarea7/diagrama.jpg)
+![Mapa de actores y relaciones]({{ '/assets/img/Tarea7/diagrama.jpg' | relative_url }})
 
 ### Relaciones principales entre actores
 

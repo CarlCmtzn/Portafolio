@@ -436,3 +436,13 @@ body,
     0 0 10px rgba(132,15,241,.2);
   border-radius: 6px;
 }
+
+
+
+
+pre,
+code,
+.highlight {
+    background: #2a2a2a !important;
+    color: #e5e5e5 !important;
+}
