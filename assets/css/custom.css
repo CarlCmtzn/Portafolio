@@ -389,7 +389,7 @@ body,
    BORDE DEL TITULO
 ================================================== */
 
-/*.side-bar .site-header {
+.side-bar .site-header {
     border-bottom: 1px solid rgba(132,15,241,.4) !important;
 
     box-shadow:
@@ -437,53 +437,6 @@ code,
     background: #2a2a2a !important;
     color: #e5e5e5 !important;
 }
-
-/* ==================================================
-   SEARCH RESULTS
-================================================== 
-
-.search-results {
-    background: #242424 !important;
-}
-
-.search-result {
-    background: #242424 !important;
-    border-bottom: 1px solid rgba(132,15,241,.15) !important;
-}
-
-.search-result:hover {
-    background: rgba(132,15,241,.15) !important;
-}
-
-.search-result-title {
-    color: #CFA8FF !important;
-}
-
-.search-result-doc,
-.search-result-rel-url {
-    color: #cfcfcf !important;
-}
-
-.search-result-previews {
-    color: #e5e5e5 !important;
-}
-
-.search-results-wrap {
-    background: #242424 !important;
-}
-
-.search-results-list {
-    background: #242424 !important;
-}
-
-.search-result.active,
-.search-result:hover {
-
-    box-shadow:
-        inset 3px 0 0 rgba(132,15,241,.8);
-
-    background: rgba(132,15,241,.15) !important;
-}*/
 
 /* ==================================================
    SEARCH RESULTS
