@@ -481,10 +481,10 @@ div.highlighter-rouge {
 .highlight .c,
 .highlight .c1,
 .highlight .cm {
-    color: #9aa0aa !important;
+    color: #8F9BB3 !important;
 }
 
-/* Keywords (import, for, if, etc.) */
+/* Keywords (import, for, if, while, etc.) */
 .highlight .k,
 .highlight .kd,
 .highlight .kn {
@@ -494,38 +494,38 @@ div.highlighter-rouge {
 
 /* Módulos (numpy, matplotlib, etc.) */
 .highlight .nn {
-    color: #66d9ef !important;
+    color: #8BE9FD !important;
 }
 
 /* Variables */
 .highlight .n {
-    color: #e5e5e5 !important;
+    color: #E5E5E5 !important;
 }
 
 /* Funciones */
 .highlight .nf {
-    color: #840FF1 !important;
+    color: #50FA7B !important;
 }
 
 /* Strings */
 .highlight .s,
 .highlight .s1,
 .highlight .s2 {
-    color: #f1fa8c !important;
+    color: #F1FA8C !important;
 }
 
 /* Números */
 .highlight .mi,
 .highlight .mf {
-    color: #ffb86c !important;
+    color: #FFB86C !important;
 }
 
-/* Símbolos y puntuación */
-.highlight .p {
-    color: #f8f8f2 !important;
-}
-
-/* Operadores */
+/* Operadores (= + - * /) */
 .highlight .o {
-    color: #ff79c6 !important;
+    color: #FF79C6 !important;
+}
+
+/* Puntuación: (), [], {}, ., , , : */
+.highlight .p {
+    color: #FFFFFF !important;
 }
