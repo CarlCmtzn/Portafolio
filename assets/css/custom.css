@@ -249,9 +249,10 @@ footer.site-footer {
   vertical-align: middle;
   margin-right: .5rem;
 
-  filter: drop-shadow(
-    0 0 6px rgba(132,15,241,.7)
-  );
+  filter:
+    hue-rotate(10deg)
+    saturate(1.1)
+    drop-shadow(0 0 6px rgba(132,15,241,.7));
 }
 
 @media (max-width: 600px) {
@@ -566,4 +567,26 @@ div.highlighter-rouge,
     white-space: pre-wrap;
     word-break: normal;
     overflow-wrap: normal;
+}
+
+/* ==================================================
+   FIX SEARCH CONTAINER
+================================================== */
+
+.search {
+    background: transparent !important;
+}
+
+.search-input-wrap {
+    background: #151515 !important;
+}
+
+.search-active .search-input-wrap,
+.search-input-wrap,
+.search-results-wrap {
+    border-radius: 0 !important;
+}
+
+.search-results-wrap {
+    background: #242424 !important;
 }

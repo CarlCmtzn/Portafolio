@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Tarea 9 - Mi Primer Proyecto en LaTeX
+title: Tarea 10 - Mi Primer Proyecto en LaTeX
 parent: Tareas
 grand_parent: Pensamiento de Ingeniería
 nav_order: 1
 ---
 
-# Tarea 9 - Mi Primer Proyecto en LaTeX
+# Tarea 10 - Mi Primer Proyecto en LaTeX
 
 ## Se Utilizó a la [Tarea 7 - Definición de Problemas](tarea7.md) Para la Información del Documento
 
