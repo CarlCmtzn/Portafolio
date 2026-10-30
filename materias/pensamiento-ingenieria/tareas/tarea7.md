@@ -6,7 +6,7 @@ grand_parent: Pensamiento de Ingeniería
 nav_order: 1
 ---
 
-# Tarea 7: Definción de Problemas 
+# Tarea 7: Definición de Problemas 
 
 # Paso 1. La Semilla de la Indignación
 
