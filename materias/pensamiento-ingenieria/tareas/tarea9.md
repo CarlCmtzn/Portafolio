@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Tarea 7 - Definición de Problemas
+title: Tarea 9 - Mi Primer Proyecto en LaTeX
 parent: Tareas
 grand_parent: Pensamiento de Ingeniería
 nav_order: 1
 ---
 
-# Tarea 9 - Mi Primer Proyecto en Latex
+# Tarea 9 - Mi Primer Proyecto en LaTeX
 
 ## Se Utilizó a la [Tarea 7 - Definición de Problemas](tarea7.md) Para la Información del Documento
 
-```Latex
+```latex
 \documentclass[12pt]{article}
 \usepackage{float}
 \usepackage[spanish]{babel}
@@ -215,16 +215,8 @@ Las regulaciones antimonopolio resultan deseables porque buscan promover una com
 
 # PDF Original
 
-<a class="btn btn-primary"
-   href="{{ '/assets/files/Tarea9/Tarea_9-Original.pdf' | relative_url }}"
-   target="_blank">
-   📄 PDF Original
-</a>
+{{ '/assets/files/Tarea9/Tarea_9-Original.pdf' | relative_url }} 📄 Descargar versión Original
 
-# PDF Versión Latex
+# PDF Versión LaTeX
 
-<a class="btn btn-primary"
-   href="{{ '/assets/files/Tarea9/Tarea_9-Latex.pdf' | relative_url }}"
-   target="_blank">
-   📄 PDF LaTeX
-</a>
+{{ '/assets/files/Tarea9/Tarea_9-Latex.pdf' | relative_url }} 📄 Descargar versión LaTeX
