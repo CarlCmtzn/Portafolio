@@ -529,3 +529,23 @@ div.highlighter-rouge {
 .highlight .p {
     color: #FFFFFF !important;
 }
+
+/* ==================================================
+   BOTONES
+================================================== */
+
+.btn {
+    background: #840FF1 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.btn:hover {
+    background: #6500B3 !important;
+    color: white !important;
+}
+
+.btn-primary,
+.btn-primary:visited {
+    color: #ffffff !important;
+}

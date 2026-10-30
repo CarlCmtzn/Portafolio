@@ -211,12 +211,20 @@ Las regulaciones antimonopolio resultan deseables porque buscan promover una com
 \end{document}
 ```
 
-## Links de Descarga:
+## Botones de Descarga:
 
 # PDF Original
 
-{{ '/assets/files/Tarea9/Tarea_9-Original.pdf' | relative_url }} 📄 Descargar versión Original
+<a class="btn btn-primary"
+   href="{{ '/assets/files/Tarea9/Tarea_9-Original.pdf' | relative_url }}"
+   target="_blank">
+   📄 PDF Original
+</a>
 
-# PDF Versión LaTeX
+# PDF Versión Latex
 
-{{ '/assets/files/Tarea9/Tarea_9-Latex.pdf' | relative_url }} 📄 Descargar versión LaTeX
+<a class="btn btn-primary"
+   href="{{ '/assets/files/Tarea9/Tarea_9-Latex.pdf' | relative_url }}"
+   target="_blank">
+   📄 PDF LaTeX
+</a>
