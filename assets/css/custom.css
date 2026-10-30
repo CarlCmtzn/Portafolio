@@ -549,3 +549,18 @@ div.highlighter-rouge {
 .btn-primary:visited {
     color: #ffffff !important;
 }
+
+/* ==================================================
+   BLOQUES DE CÓDIGO
+================================================== */
+
+div.highlighter-rouge,
+.highlight {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.highlight pre {
+    overflow-x: auto;
+    white-space: pre;
+}
