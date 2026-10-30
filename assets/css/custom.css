@@ -562,5 +562,8 @@ div.highlighter-rouge,
 
 .highlight pre {
     overflow-x: auto;
-    white-space: pre;
+    overflow-y: hidden;
+    white-space: pre-wrap;
+    word-break: normal;
+    overflow-wrap: normal;
 }
