@@ -3,7 +3,7 @@ layout: default
 title: Tarea 8 - Simulación de Montecarlo
 parent: Tareas
 grand_parent: Pensamiento de Ingeniería
-nav_order: 1
+nav_order: 8
 ---
 
 # Tarea 8 - Simulación de Montecarlo

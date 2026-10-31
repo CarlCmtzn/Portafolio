@@ -3,7 +3,7 @@ layout: default
 title: Tarea 7 - Definición de Problemas
 parent: Tareas
 grand_parent: Pensamiento de Ingeniería
-nav_order: 1
+nav_order: 7
 ---
 
 # Tarea 7: Definición de Problemas 

@@ -3,7 +3,7 @@ layout: default
 title: Tarea 10 - Mi Primer Proyecto en LaTeX
 parent: Tareas
 grand_parent: Pensamiento de Ingeniería
-nav_order: 1
+nav_order: 10
 ---
 
 # Tarea 10 - Mi Primer Proyecto en LaTeX
