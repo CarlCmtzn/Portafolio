@@ -390,22 +390,31 @@ body,
    REPOSITORIO GITHUB
 ================================================== */
 
-/* Contenedor de navegación */
-.aux-nav-list {
+/* Contenedor auxiliar */
+.main-header .aux-nav {
     display: flex !important;
-    align-items: center !important;
-    justify-content: flex-end !important;
-    gap: 0 !important;
+    flex: 0 0 auto !important;
+    width: auto !important;
+    max-width: none !important;
+    margin-left: auto !important;
+    padding: 0 !important;
+}
 
+/* Lista */
+.main-header .aux-nav-list {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+
+    width: auto !important;
     margin: 0 !important;
     padding: 0 !important;
 }
 
-/* Elemento de navegación */
+/* Elemento */
 .aux-nav-list-item {
     display: flex !important;
     flex: 0 0 auto !important;
-
     width: auto !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -418,14 +427,15 @@ body,
     justify-content: center !important;
     gap: 8px !important;
 
-    width: fit-content !important;
-    min-width: unset !important;
+    width: auto !important;
+    min-width: 0 !important;
     flex: 0 0 auto !important;
 
     margin: 0 !important;
     padding: 10px 12px !important;
 
-    white-space: nowrap;
+    white-space: nowrap !important;
+    box-sizing: border-box !important;
 
     color: #840FF1 !important;
     font-size: 1rem !important;
@@ -435,30 +445,26 @@ body,
     transition: .2s;
 }
 
-/* Icono GitHub */
+/* ICONO GITHUB: CONSERVAR */
 .aux-nav-list-item a::before {
     content: "";
     display: inline-block;
-
     width: 45px;
     height: 45px;
-
-    margin-right: 10px;
+    margin-right: 7px;
 
     background-image: url("/Portafolio/assets/img/github.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 
-    filter:
-        drop-shadow(0 0 3px rgba(132,15,241,.3));
+    filter: drop-shadow(0 0 3px rgba(132,15,241,.3));
 }
 
 /* Hover */
 .aux-nav-list-item a:hover {
     background: rgba(132,15,241,.25) !important;
     box-shadow: 0 0 8px rgba(132,15,241,.15);
-
     border-radius: 0 !important;
     color: #ffffff !important;
 }
