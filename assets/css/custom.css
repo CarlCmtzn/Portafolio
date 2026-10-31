@@ -432,7 +432,7 @@ body,
     flex: 0 0 auto !important;
 
     margin: 0 !important;
-    padding: 10px 12px 10px 35px !important;
+    padding: 10px 12px 10px 32px !important;
 
     white-space: nowrap !important;
     box-sizing: border-box !important;
@@ -449,8 +449,8 @@ body,
 .aux-nav-list-item a::before {
     content: "";
     display: inline-block;
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
     margin-right: 7px;
 
     background-image: url("/Portafolio/assets/img/github.png");
