@@ -441,14 +441,18 @@ body,
     content: "";
     display: inline-block;
 
-    width: 20px;
-    height: 20px;
+    width: 32px;
+    height: 32px;
 
-    margin-right: 8px;
+    margin-right: 10px;
 
-    background: url("/Portafolio/assets/img/github.png")
-                center center / contain
-                no-repeat;
+    background-image: url("/Portafolio/assets/img/github.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    filter:
+        drop-shadow(0 0 3px rgba(132,15,241,.3));
 }
 
 /* Hover */
