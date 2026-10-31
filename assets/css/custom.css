@@ -355,26 +355,17 @@ body,
    SEARCH
 ================================================== */
 
-.search,
-.search-input-wrap,
-.search-input {
+.search-input-wrap {
   background: #151515 !important;
-
+  border: 1px solid rgba(132,15,241,.35) !important;
+  box-shadow:
+    0 0 8px rgba(132,15,241,.15);
   border-radius: 0 !important;
 }
 
-.search-input-wrap {
-  border: 1px solid rgba(132,15,241,.35) !important;
-
-  box-shadow:
-    0 0 8px rgba(132,15,241,.15);
-}
-
 .search-input {
+  background: transparent !important;
   color: #840FF1 !important;
-
-  font-size: 1rem !important;
-  font-weight: 400 !important;
 }
 
 .search-input::placeholder {
@@ -385,6 +376,12 @@ body,
 .search-label svg,
 .search-input-wrap svg {
   stroke: #840FF1 !important;
+}
+
+.search-input,
+.search-input::placeholder {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
 }
 
 /* ==================================================
@@ -561,4 +558,14 @@ div.highlighter-rouge,
         0 0 8px rgba(132,15,241,.15);
 
     border-radius: 6px;
+}
+
+/* Fuerza esquinas rectas */
+
+.search,
+.search-input-wrap,
+.search-input,
+.search-results,
+.search-results-wrap {
+    border-radius: 0 !important;
 }
