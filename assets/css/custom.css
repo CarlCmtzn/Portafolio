@@ -183,32 +183,6 @@ a {
 /* ==================================================
    FLECHAS DEL MENÚ
 ================================================== */
-/*
-.nav-list-expander {
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-}
-
-.nav-list-expander:hover {
-  background: transparent !important;
-}
-
-.nav-list-expander,
-.nav-list-expander svg {
-  color: inherit !important;
-  stroke: currentColor !important;
-  fill: none !important;
-}
-
-.nav-list-item {
-  position: relative;
-}
-
-.nav-list-expander {
-  background: transparent !important;
-}
-*/
 
 .nav-list-expander {
   background: transparent !important;
@@ -413,7 +387,7 @@ body,
 /* ==================================================
    BORDE DEL TITULO
 ================================================== */
-
+/*
 .side-bar .site-header {
     border-bottom: 1px solid rgba(132,15,241,.4) !important;
 
@@ -575,6 +549,12 @@ div.highlighter-rouge,
 
 
 
+/* ==================================================
+   TITULO DEL SITIO
+================================================== */
 .site-title {
-    background: #6500B3 !important;
+    background: rgba(132,15,241,.08) !important;
+
+    box-shadow:
+        inset 0 0 6px rgba(132,15,241,.10);
 }
