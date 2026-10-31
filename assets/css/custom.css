@@ -46,8 +46,8 @@ a {
 
 .site-title,
 .site-nav a {
-  color: #ff0000 !important;
-} /*!!!!!!!!!!!!!!!!!!!!!!!!!
+  color: #ffffff !important;
+}
 
 /* Iconos y menú móvil */
 
@@ -572,13 +572,9 @@ div.highlighter-rouge,
     overflow-wrap: normal;
 }
 
-.site-title {
-    background: transparent !important;
-}
-.site-title {
-    background: #141414 !important;
-}
 
-.aux-nav {
-    background: #242424 !important;
+
+
+.site-title {
+    background: #6500B3 !important;
 }
