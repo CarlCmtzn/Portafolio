@@ -354,7 +354,7 @@ body,
 /* ==================================================
    SEARCH
 ================================================== */
-
+/*
 .search-input-wrap {
   background: #151515 !important;
   border: 1px solid rgba(132,15,241,.35) !important;
@@ -383,7 +383,41 @@ body,
   font-size: 1rem !important;
   font-weight: 400 !important;
 }
+*/
+/* ==================================================
+   SEARCH - CUADRADO COMPLETO
+================================================== */
 
+.search-input-wrap,
+.search-input-wrap:focus,
+.search-input-wrap:focus-within {
+    border-radius: 0 !important;
+    outline: none !important;
+    box-sizing: border-box !important;
+    overflow: hidden;
+}
+
+.search-input,
+.search-input:focus,
+.search-input:active,
+#search-input {
+    border-radius: 0 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    box-sizing: border-box !important;
+}
+
+.search-input-wrap {
+    background: #151515 !important;
+    border: 1px solid rgba(132,15,241,.35) !important;
+    box-shadow: 0 0 8px rgba(132,15,241,.15);
+}
+
+.search-input-wrap:focus-within {
+    border: 1px solid #840FF1 !important;
+    box-shadow: 0 0 8px rgba(132,15,241,.25);
+}
 /* ==================================================
    REPOSITORIO GITHUB
 ================================================== */
@@ -558,16 +592,4 @@ div.highlighter-rouge,
         0 0 8px rgba(132,15,241,.15);
 
     border-radius: 6px;
-}
-
-.search,
-.search-input-wrap,
-.search-input,
-.search-results-wrap,
-.search-results {
-    border-radius: 0 !important;
-}
-.search-input-wrap {
-    border-radius: 0 !important;
-    overflow: hidden !important;
 }
