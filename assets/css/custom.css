@@ -390,22 +390,30 @@ body,
 ================================================== */
 
 .aux-nav-list-item {
-    display: flex !important;
-    align-items: center !important;
-    width: fit-content !important;
+    display: inline-flex !important;
+    flex: 0 0 auto !important;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .aux-nav-list-item a {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    gap: 8px;
+    gap: 8px !important;
 
-    width: fit-content !important;
-    padding: 8px 12px !important;
+    width: auto !important;
+    min-width: 0 !important;
+    height: auto !important;
+
+    padding: 10px 12px !important;
     margin: 0 !important;
 
     white-space: nowrap;
+    border-radius: 0 !important;
+    box-sizing: border-box !important;
+
     color: #840FF1 !important;
     font-size: 1rem !important;
     font-weight: 500 !important;
@@ -413,7 +421,7 @@ body,
     transition: .2s;
 }
 
-/* Logo GitHub */
+/* Logo */
 .aux-nav-list-item a::before {
     content: "";
     display: inline-block;
@@ -421,16 +429,17 @@ body,
     height: 20px;
     flex-shrink: 0;
 
-    background-image: url("/assets/imag/github.png");
+    background-image: url("/assets/img/github.png");
     background-size: contain;
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
-.aux-nav-list-item a:hover {
+.aux-nav-list-item a:hover,
+.aux-nav-list-item a:focus {
     background: rgba(132,15,241,.25) !important;
     box-shadow: 0 0 8px rgba(132,15,241,.15);
-    border-radius: 6px;
+    border-radius: 0 !important;
     color: #ffffff !important;
 }
 
