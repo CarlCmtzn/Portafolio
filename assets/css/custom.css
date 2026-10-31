@@ -445,7 +445,7 @@ body,
     height: 20px;
     flex-shrink: 0;
 
-    background-image: url("{{ '/assets/img/github.png' | relative_url }}");
+    background-image: url("/assets/img/github.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
