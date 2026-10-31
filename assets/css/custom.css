@@ -385,18 +385,33 @@ body,
     border: 1px solid rgba(137, 21, 245, 0.35) !important;
     box-shadow: 0 0 8px rgba(132,15,241,.25);
 }
+
 /* ==================================================
    REPOSITORIO GITHUB
 ================================================== */
 
+/* Contenedor de navegación */
+.aux-nav-list {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    gap: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Elemento de navegación */
 .aux-nav-list-item {
-    display: inline-flex !important;
+    display: flex !important;
     flex: 0 0 auto !important;
+
     width: auto !important;
     margin: 0 !important;
     padding: 0 !important;
 }
 
+/* Enlace */
 .aux-nav-list-item a {
     display: inline-flex !important;
     align-items: center !important;
@@ -407,38 +422,40 @@ body,
     min-width: 0 !important;
     height: auto !important;
 
-    padding: 10px 12px !important;
     margin: 0 !important;
+    padding: 10px 12px !important;
 
     white-space: nowrap;
-    border-radius: 0 !important;
     box-sizing: border-box !important;
 
     color: #840FF1 !important;
     font-size: 1rem !important;
     font-weight: 500 !important;
 
+    border-radius: 0 !important;
     transition: .2s;
 }
 
-/* Logo */
+/* Icono GitHub */
 .aux-nav-list-item a::before {
     content: "";
     display: inline-block;
+
     width: 20px;
     height: 20px;
     flex-shrink: 0;
 
-    background-image: url("/assets/img/github.png");
+    background-image: url("{{ '/assets/img/github.png' | relative_url }}");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.aux-nav-list-item a:hover,
-.aux-nav-list-item a:focus {
+/* Hover */
+.aux-nav-list-item a:hover {
     background: rgba(132,15,241,.25) !important;
     box-shadow: 0 0 8px rgba(132,15,241,.15);
+
     border-radius: 0 !important;
     color: #ffffff !important;
 }
