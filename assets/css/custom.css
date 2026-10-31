@@ -560,6 +560,14 @@ div.highlighter-rouge,
     border-radius: 6px;
 }
 
-.main-header {
-    background: red !important;
+.search,
+.search-input-wrap,
+.search-input,
+.search-results-wrap,
+.search-results {
+    border-radius: 0 !important;
+}
+.search-input-wrap {
+    border-radius: 0 !important;
+    overflow: hidden !important;
 }
