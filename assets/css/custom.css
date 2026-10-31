@@ -389,16 +389,49 @@ body,
    REPOSITORIO GITHUB
 ================================================== */
 
+.aux-nav-list-item {
+    display: flex !important;
+    align-items: center !important;
+    width: fit-content !important;
+}
+
 .aux-nav-list-item a {
-  transition: .2s;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px;
+
+    width: fit-content !important;
+    padding: 8px 12px !important;
+    margin: 0 !important;
+
+    white-space: nowrap;
+    color: #840FF1 !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+
+    transition: .2s;
+}
+
+/* Logo GitHub */
+.aux-nav-list-item a::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+
+    background-image: url("/assets/imag/github.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .aux-nav-list-item a:hover {
-  background: rgba(132,15,241,.25) !important;
-  box-shadow:
-    0 0 8px rgba(132,15,241,.15);
-  border-radius: 6px;
-  color: #ffffff !important;
+    background: rgba(132,15,241,.25) !important;
+    box-shadow: 0 0 8px rgba(132,15,241,.15);
+    border-radius: 6px;
+    color: #ffffff !important;
 }
 
 /* ==================================================
