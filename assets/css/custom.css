@@ -560,12 +560,6 @@ div.highlighter-rouge,
     border-radius: 6px;
 }
 
-/* Fuerza esquinas rectas */
-
-.search,
-.search-input-wrap,
-.search-input,
-.search-results,
-.search-results-wrap {
-    border-radius: 0 !important;
+.main-header {
+    background: red !important;
 }
