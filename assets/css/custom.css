@@ -381,7 +381,7 @@ body,
    SEARCH
 ================================================== */
 
-/*.search-input-wrap {
+.search-input-wrap {
   background: #151515 !important;
   border: 1px solid rgba(132,15,241,.35) !important;
   box-shadow:
@@ -408,53 +408,18 @@ body,
 .search-input::placeholder {
   font-size: 1rem !important;
   font-weight: 400 !important;
-}*/
-/* ==================================================
-   SEARCH
-================================================== */
-
-.search,
-.search-input-wrap {
-  background: #151515 !important;
-}
-
-.search-input-wrap {
-  border: 1px solid rgba(132,15,241,.35) !important;
-
-  box-shadow:
-    0 0 8px rgba(132,15,241,.15);
-
-  border-radius: 0 !important;
-}
-
-.search-input {
-  background: transparent !important;
-  color: #840FF1 !important;
-
-  font-size: 1rem !important;
-  font-weight: 400 !important;
-}
-
-.search-input::placeholder {
-  color: #840FF1 !important;
-  opacity: 1;
-}
-
-.search-label svg,
-.search-input-wrap svg {
-  stroke: #840FF1 !important;
 }
 
 /* ==================================================
    BORDE DEL TITULO
 ================================================== */
-/*
+
 .side-bar .site-header {
     border-bottom: 1px solid rgba(132,15,241,.4) !important;
 
     box-shadow:
         0 2px 8px rgba(132,15,241,.15);
-}*/
+}
 
 /* ==================================================
    REPOSITORIO GITHUB
@@ -472,17 +437,6 @@ body,
   color: #ffffff !important;
 }
 
-/* ==================================================
-   FORMATO OSUCORO DE CÓDIGO
-================================================== */
-/*
-pre,
-code,
-.highlight {
-    background: #2a2a2a !important;
-    color: #e5e5e5 !important;
-}
-*/
 /* ==================================================
    SEARCH RESULTS
 ================================================== */
@@ -616,4 +570,27 @@ div.highlighter-rouge,
     white-space: pre-wrap;
     word-break: normal;
     overflow-wrap: normal;
+}
+
+
+
+.site-title {
+    background:red !important;
+}
+.search {
+    background:red !important;
+}
+
+.site-title {
+    background: transparent !important;
+}
+.site-title {
+    background: #141414 !important;
+}
+
+.site-header {
+    background: red !important;
+}
+.side-bar .site-header {
+    background: red !important;
 }
