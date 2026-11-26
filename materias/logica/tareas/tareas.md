@@ -14,7 +14,7 @@ Aquí se mostrarán las tareas realizadas durante la materia.
 ## Disponible
 
 - [Aplicación de Búsqueda de Caminos al Grafo del Metro](metro-logica.md)
-- [Tarea 8 - Simulación de Montecarlo](tarea8.md)
+- [Recursion y Combinatoria](fac-per-com.md)
 
 ---
 
